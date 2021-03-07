@@ -1,0 +1,81 @@
+#titleone{
+    margin-left: 100px;
+    text-align: left;
+    margin-top: 80px;
+    color: white;
+}
+
+#titletwo{
+    
+    margin-left: 100px;
+    text-align: left;
+    margin-top: -15px;
+    color: white;
+    
+}
+
+#paragrafone{
+    margin-left: 100px;
+    font-size: large;
+    text-align: left;
+    color: white;
+    margin-top: -10px;
+    
+}
+
+#paragrafthree{
+    margin-top: 50px;
+    text-align: justify;
+    color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.bottonsobre{
+    margin-top: 0px;
+    margin-left: 100px;
+}
+
+.bottoncurriculo{
+    margin-top: 0px;
+    margin-left: 160px;
+}
+.bottoncurriculo:hover{
+    cursor: pointer;
+}
+
+.sociais{
+    margin-top: 5px;
+    margin-left:auto;
+}
+
+.perfil{
+    margin-bottom: -160px;
+    margin-top: 10px;
+    margin-left: 55px;
+    image-resolution: 1080px;
+    image-rendering: optimizeQuality;
+    animation: perfil-animation 1.2s ease-out forwards;
+
+}
+
+
+
+@keyframes perfil-animation{
+    0%{
+        transform: translateY(0px);
+    }
+    25%{
+        transform: translateY(-15px);
+    }
+    50%{
+        transform: translateY(20px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+
+}
+
+  
+  
