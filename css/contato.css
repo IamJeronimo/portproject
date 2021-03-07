@@ -2,28 +2,57 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h3{
+.linked{
+    width: 250px;
+    height: 250px;
+    margin-left: 0px;
+    transition: 0.5s;
+}
+
+.linked:hover {
+    width: 350px;
+    height: 350px;
+    margin-left: 0px;
+    transition: 0.5s;
+}
+
+.mail{
+    width: 250px;
+    height: 250px;
+    margin-left: 0px;
+    transition: 0.5s;
+}
+
+.mail:hover {
+    width: 350px;
+    height: 350px;
+    margin-left: 0px;
+    transition: 0.5s;
+}
+
+.wpp{
+    width: 250px;
+    height: 250px;
+    margin-left: 0px;
+    transition: 0.5s;
+}
+
+.wpp:hover {
+    width: 350px;
+    height: 350px;
+    margin-left: 0px;
+    transition: 0.5s;
+}
+
+h1{
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 100px;
+    color: aliceblue;
     text-align: center;
-    color:  rgb(196, 196, 196);
+    font-size: 400%;
 }
 
-.content{
-    width: 100%; 
-    max-width: 500px;
-}
-
-.form{ 
-    display: flex;
-    flex-direction: column;
-}
-
-.field{
-    padding: 10px;
-    margin-bottom: 15px;
-    border-radius: 5px;
-    border: 1px;
-}
-
-textarea{
-    height: 150px;
+.bottoms{
+    margin-top: 190px;
 }
