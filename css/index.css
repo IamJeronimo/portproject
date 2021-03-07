@@ -1,1 +1,65 @@
-body {background-color: aqua;}
+header{
+    /*background-color: #001429;*/
+    background-image: linear-gradient(blcak, #001429);
+}
+
+body{
+    background-image: linear-gradient(#001429,black);
+}
+
+.nav-link{
+    margin-left: 90px;
+}
+
+.inner{
+    color: white;
+    text-align: center;
+    margin-top: 15%;
+}
+
+
+.perfil{
+    display: block;
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-bottom: -5%;
+    animation: perfil-animation 1.2s ease-out forwards;
+}
+
+.row{
+    
+    color: rgb(196, 196, 196);
+    margin-top: 11%;
+}
+
+.jumbotron{
+    color: rgb(196, 196, 196);
+}
+
+.btn-primary{
+    background-color: transparent;
+    border-color: white;
+}
+.btn-primary:hover{
+    border-color: aqua;
+    background-color: transparent;
+    color: aqua;
+}
+
+
+@keyframes perfil-animation{
+    0%{
+        transform: translateY(0px);
+    }
+    25%{
+        transform: translateY(-15px);
+    }
+    50%{
+        transform: translateY(20px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+
+}
+
